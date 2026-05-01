@@ -1,66 +1,20 @@
 {
-  "harmony_map": {
-    "Rat": ["Ox", "Dragon", "Monkey"],
-    "Ox": ["Rat", "Snake", "Rooster"],
-    "Tiger": ["Horse", "Dog", "Pig"],
-    "Rabbit": ["Goat", "Pig", "Dog"],
-    "Dragon": ["Rat", "Monkey", "Rooster"],
-    "Snake": ["Ox", "Rooster", "Monkey"],
-    "Horse": ["Tiger", "Dog", "Goat"],
-    "Goat": ["Rabbit", "Pig", "Horse"],
-    "Monkey": ["Rat", "Dragon", "Snake"],
-    "Rooster": ["Ox", "Snake", "Dragon"],
-    "Dog": ["Tiger", "Horse", "Rabbit"],
-    "Pig": ["Rabbit", "Goat", "Tiger"]
+  "age": {
+    "min_age": 13,
+    "badges": {
+      "Novice": [13, 17],
+      "Pupil": [18, 29],
+      "Student": [30, 49],
+      "Wisened": [50, 69],
+      "Elder": [70, 120]
+    }
   },
-  "clash_map": {
-    "Rat": ["Horse"],
-    "Ox": ["Goat"],
-    "Tiger": ["Monkey"],
-    "Rabbit": ["Rooster"],
-    "Dragon": ["Dog"],
-    "Snake": ["Pig"],
-    "Horse": ["Rat"],
-    "Goat": ["Ox"],
-    "Monkey": ["Tiger"],
-    "Rooster": ["Rabbit"],
-    "Dog": ["Dragon"],
-    "Pig": ["Snake"]
-  },
-  "mirror_pairs": {
-    "Rat": "Sagittarius",
-    "Ox": "Capricorn",
-    "Tiger": "Aquarius",
-    "Rabbit": "Pisces",
-    "Dragon": "Aries",
-    "Snake": "Taurus",
-    "Horse": "Gemini",
-    "Goat": "Cancer",
-    "Monkey": "Leo",
-    "Rooster": "Virgo",
-    "Dog": "Libra",
-    "Pig": "Scorpio",
-    "Rat-Aries": "Pisces-Aries",
-    "Ox-Taurus": "Capricorn-Aquarius",
-    "Tiger-Gemini": "Aquarius-Pisces",
-    "Rabbit-Cancer": "Aries-Taurus",
-    "Dragon-Leo": "Taurus-Gemini",
-    "Snake-Virgo": "Gemini-Cancer",
-    "Horse-Libra": "Cancer-Leo",
-    "Goat-Scorpio": "Leo-Virgo",
-    "Monkey-Sagittarius": "Virgo-Libra",
-    "Rooster-Capricorn": "Libra-Scorpio",
-    "Dog-Aquarius": "Scorpio-Sagittarius",
-    "Pig-Pisces": "Sagittarius-Capricorn"
-  },
-  "harmonious_multiplier": 1.2,
-  "mirror_bonus": 50,
-  "contradictory_modifiers": {
-    "vitality": 0.8,
-    "vigor": 1.2,
-    "intuition": 1.2,
-    "resolve": 0.8
+  "stat_cap": 800,
+  "element_weight_bonuses": {
+    "Wood": { "spirit": 30, "intuition": 20 },
+    "Fire": { "vitality": 30, "charisma": 20 },
+    "Earth": { "resolve": 30, "vigor": 20 },
+    "Metal": { "intellect": 30, "resolve": 20 },
+    "Water": { "intellect": 20, "intuition": 30 }
   }
 }
-
-
