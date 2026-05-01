@@ -211,7 +211,6 @@ def lambda_handler(event, context):
             "statusCode": 500,
             "body": json.dumps({"error": "Internal server error."})
         }//  lambda_function.py
-//  SynthesisisZodiacEngine
 //
 //  Created by Tony Brewer on 5/1/26.
 //
