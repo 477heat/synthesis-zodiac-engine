@@ -1,0 +1,65 @@
+{
+  "harmony_map": {
+    "Rat": ["Ox", "Dragon", "Monkey"],
+    "Ox": ["Rat", "Snake", "Rooster"],
+    "Tiger": ["Horse", "Dog", "Pig"],
+    "Rabbit": ["Goat", "Pig", "Dog"],
+    "Dragon": ["Rat", "Monkey", "Rooster"],
+    "Snake": ["Ox", "Rooster", "Monkey"],
+    "Horse": ["Tiger", "Dog", "Goat"],
+    "Goat": ["Rabbit", "Pig", "Horse"],
+    "Monkey": ["Rat", "Dragon", "Snake"],
+    "Rooster": ["Ox", "Snake", "Dragon"],
+    "Dog": ["Tiger", "Horse", "Rabbit"],
+    "Pig": ["Rabbit", "Goat", "Tiger"]
+  },
+  "clash_map": {
+    "Rat": ["Horse"],
+    "Ox": ["Goat"],
+    "Tiger": ["Monkey"],
+    "Rabbit": ["Rooster"],
+    "Dragon": ["Dog"],
+    "Snake": ["Pig"],
+    "Horse": ["Rat"],
+    "Goat": ["Ox"],
+    "Monkey": ["Tiger"],
+    "Rooster": ["Rabbit"],
+    "Dog": ["Dragon"],
+    "Pig": ["Snake"]
+  },
+  "mirror_pairs": {
+    "Rat": "Sagittarius",
+    "Ox": "Capricorn",
+    "Tiger": "Aquarius",
+    "Rabbit": "Pisces",
+    "Dragon": "Aries",
+    "Snake": "Taurus",
+    "Horse": "Gemini",
+    "Goat": "Cancer",
+    "Monkey": "Leo",
+    "Rooster": "Virgo",
+    "Dog": "Libra",
+    "Pig": "Scorpio",
+    "Rat-Aries": "Pisces-Aries",
+    "Ox-Taurus": "Capricorn-Aquarius",
+    "Tiger-Gemini": "Aquarius-Pisces",
+    "Rabbit-Cancer": "Aries-Taurus",
+    "Dragon-Leo": "Taurus-Gemini",
+    "Snake-Virgo": "Gemini-Cancer",
+    "Horse-Libra": "Cancer-Leo",
+    "Goat-Scorpio": "Leo-Virgo",
+    "Monkey-Sagittarius": "Virgo-Libra",
+    "Rooster-Capricorn": "Libra-Scorpio",
+    "Dog-Aquarius": "Scorpio-Sagittarius",
+    "Pig-Pisces": "Sagittarius-Capricorn"
+  },
+  "harmonious_multiplier": 1.2,
+  "mirror_bonus": 50,
+  "contradictory_modifiers": {
+    "vitality": 0.8,
+    "vigor": 1.2,
+    "intuition": 1.2,
+    "resolve": 0.8
+  }
+}
+

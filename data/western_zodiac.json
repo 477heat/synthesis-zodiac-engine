@@ -1,0 +1,508 @@
+{
+  "western_zodiac": [
+    {
+      "name": "Aries-Taurus Cusp",
+      "type": "cusp",
+      "start": "04-17",
+      "end": "04-23",
+      "element": "Fire-Earth",
+      "modality": "Cardinal-Fixed",
+      "base_stats": {
+        "vitality": 72,
+        "intellect": 55,
+        "spirit": 68,
+        "charisma": 63,
+        "vigor": 70,
+        "intuition": 52,
+        "resolve": 65
+      },
+      "qualities": "Fearless initiative meeting practical determination.",
+      "shortcomings": "Impatient, stubborn, overly materialistic",
+      "physical_traits": "Formidable and solid; often possesses great physical strength and a determined jawline.",
+      "ruling_zones": ["Head", "Face", "Neck", "Throat"]
+    },
+    {
+      "name": "Taurus-Gemini Cusp",
+      "type": "cusp",
+      "start": "05-18",
+      "end": "05-24",
+      "element": "Earth-Air",
+      "modality": "Fixed-Mutable",
+      "base_stats": {
+        "vitality": 65,
+        "intellect": 70,
+        "spirit": 60,
+        "charisma": 68,
+        "vigor": 62,
+        "intuition": 55,
+        "resolve": 58
+      },
+      "qualities": "Grounded stability meeting intellectual curiosity.",
+      "shortcomings": "Restless, indecisive, possessive",
+      "physical_traits": "Robust but agile; likely to have the sturdy Taurus base with the restless hands of Gemini.",
+      "ruling_zones": ["Neck", "Throat", "Arms", "Lungs"]
+    },
+    {
+      "name": "Gemini-Cancer Cusp",
+      "type": "cusp",
+      "start": "06-18",
+      "end": "06-24",
+      "element": "Air-Water",
+      "modality": "Mutable-Cardinal",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 72,
+        "spirit": 65,
+        "charisma": 66,
+        "vigor": 58,
+        "intuition": 70,
+        "resolve": 55
+      },
+      "qualities": "Quick-witted communication meeting deep emotional intuition.",
+      "shortcomings": "Moody, scattered, overemotional",
+      "physical_traits": "Highly expressive face; features that seem to change with their mood; very 'lit from within.'",
+      "ruling_zones": ["Arms", "Lungs", "Chest", "Stomach"]
+    },
+    {
+      "name": "Cancer-Leo Cusp",
+      "type": "cusp",
+      "start": "07-20",
+      "end": "07-26",
+      "element": "Water-Fire",
+      "modality": "Cardinal-Fixed",
+      "base_stats": {
+        "vitality": 68,
+        "intellect": 58,
+        "spirit": 75,
+        "charisma": 74,
+        "vigor": 65,
+        "intuition": 72,
+        "resolve": 63
+      },
+      "qualities": "Nurturing sensitivity meeting bold self-expression.",
+      "shortcomings": "Dramatic, overly sensitive, domineering",
+      "physical_traits": "Dramatic physical presence; usually has a very expressive, large-featured 'mane' or hair.",
+      "ruling_zones": ["Chest", "Stomach", "Heart", "Spine"]
+    },
+    {
+      "name": "Leo-Virgo",
+      "type": "cusp",
+      "start": "08-20",
+      "end": "08-26",
+      "element": "Fire-Earth",
+      "modality": "Fixed-Mutable",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 68,
+        "spirit": 66,
+        "charisma": 72,
+        "vigor": 64,
+        "intuition": 58,
+        "resolve": 67
+      },
+      "qualities": "Creative leadership meeting meticulous refinement.",
+      "shortcomings": "Overcritical, perfectionist, arrogant",
+      "physical_traits": "Meticulously groomed; possesses a kingly/queenly bearing but with a very neat, refined edge.",
+      "ruling_zones": ["Heart", "Spine", "Digestive system", "Intestines"]
+    },
+    {
+      "name": "Virgo-Libra",
+      "type": "cusp",
+      "start": "09-20",
+      "end": "09-26",
+      "element": "Earth-Air",
+      "modality": "Mutable-Cardinal",
+      "base_stats": {
+        "vitality": 62,
+        "intellect": 75,
+        "spirit": 60,
+        "charisma": 70,
+        "vigor": 60,
+        "intuition": 64,
+        "resolve": 59
+      },
+      "qualities": "Analytical perfection meeting social harmony.",
+      "shortcomings": "Indecisive, fussy, people-pleasing",
+      "physical_traits": "Natural models; often possesses striking symmetry and a very gentle, approachable aesthetic.",
+      "ruling_zones": ["Digestive system", "Intestines", "Kidneys", "Skin"]
+    },
+    {
+      "name": "Libra-Scorpio",
+      "type": "cusp",
+      "start": "10-20",
+      "end": "10-26",
+      "element": "Air-Water",
+      "modality": "Cardinal-Fixed",
+      "base_stats": {
+        "vitality": 66,
+        "intellect": 68,
+        "spirit": 72,
+        "charisma": 71,
+        "vigor": 63,
+        "intuition": 78,
+        "resolve": 70
+      },
+      "qualities": "Diplomatic grace meeting intense transformative power.",
+      "shortcomings": "Jealous, manipulative, indecisive when emotional",
+      "physical_traits": "Magnetic and intense; often has the 'pretty' features of Libra with the 'dark' eyes of Scorpio.",
+      "ruling_zones": ["Kidneys", "Skin", "Reproductive system", "Pelvis"]
+    },
+    {
+      "name": "Scorpio-Sagittarius",
+      "type": "cusp",
+      "start": "11-19",
+      "end": "11-25",
+      "element": "Water-Fire",
+      "modality": "Fixed-Mutable",
+      "base_stats": {
+        "vitality": 71,
+        "intellect": 66,
+        "spirit": 77,
+        "charisma": 69,
+        "vigor": 72,
+        "intuition": 74,
+        "resolve": 68
+      },
+      "qualities": "Emotional depth meeting adventurous optimism.",
+      "shortcomings": "Reckless, obsessive, tactless",
+      "physical_traits": "Wild and powerful; likely to be tall or long-limbed with a very intense, piercing gaze.",
+      "ruling_zones": ["Reproductive system", "Pelvis", "Hips", "Liver"]
+    },
+    {
+      "name": "Sagittarius-Capricorn",
+      "type": "cusp",
+      "start": "12-19",
+      "end": "12-25",
+      "element": "Fire-Earth",
+      "modality": "Mutable-Cardinal",
+      "base_stats": {
+        "vitality": 68,
+        "intellect": 70,
+        "spirit": 69,
+        "charisma": 65,
+        "vigor": 67,
+        "intuition": 62,
+        "resolve": 74
+      },
+      "qualities": "Philosophical vision meeting disciplined structure.",
+      "shortcomings": "Pessimistic, rigid, overly serious",
+      "physical_traits": "Regal and grounded; possesses the tall stature of the Archer but the serious bone structure of the Goat.",
+      "ruling_zones": ["Hips", "Liver", "Knees", "Bones"]
+    },
+    {
+      "name": "Capricorn-Aquarius",
+      "type": "cusp",
+      "start": "01-17",
+      "end": "01-23",
+      "element": "Earth-Air",
+      "modality": "Cardinal-Fixed",
+      "base_stats": {
+        "vitality": 63,
+        "intellect": 76,
+        "spirit": 64,
+        "charisma": 67,
+        "vigor": 61,
+        "intuition": 68,
+        "resolve": 71
+      },
+      "qualities": "Traditional ambition meeting eccentric innovation.",
+      "shortcomings": "Detached, rebellious, cold",
+      "physical_traits": "Statuesque and unique; often has a very 'cool' or detached beauty with striking, unusual eyes.",
+      "ruling_zones": ["Knees", "Bones", "Calves", "Circulatory system"]
+    },
+    {
+      "name": "Aquarius-Pisces",
+      "type": "cusp",
+      "start": "02-16",
+      "end": "02-22",
+      "element": "Air-Water",
+      "modality": "Fixed-Mutable",
+      "base_stats": {
+        "vitality": 59,
+        "intellect": 72,
+        "spirit": 70,
+        "charisma": 66,
+        "vigor": 57,
+        "intuition": 80,
+        "resolve": 62
+      },
+      "qualities": "Humanitarian logic meeting spiritual imagination.",
+      "shortcomings": "Unreliable, escapist, impractical",
+      "physical_traits": "Ethereal and delicate; often looks 'otherworldly' or as if they are floating rather than walking.",
+      "ruling_zones": ["Calves", "Circulatory system", "Feet", "Lymphatic system"]
+    },
+    {
+      "name": "Pisces-Aries",
+      "type": "cusp",
+      "start": "03-18",
+      "end": "03-23",
+      "element": "Water-Fire",
+      "modality": "Mutable-Cardinal",
+      "base_stats": {
+        "vitality": 67,
+        "intellect": 58,
+        "spirit": 73,
+        "charisma": 68,
+        "vigor": 70,
+        "intuition": 76,
+        "resolve": 64
+      },
+      "qualities": "Dreamy intuition meeting fiery new beginnings.",
+      "shortcomings": "Impulsive, self-pitying, chaotic",
+      "physical_traits": "Athletic but ethereal; a mix of dreamy eyes and a bold, forward-leaning posture.",
+      "ruling_zones": ["Feet", "Lymphatic system", "Head", "Face"]
+    },
+    {
+      "name": "Aries",
+      "type": "sign",
+      "start": "03-25",
+      "end": "04-16",
+      "element": "Fire",
+      "modality": "Cardinal",
+      "base_stats": {
+        "vitality": 85,
+        "intellect": 55,
+        "spirit": 70,
+        "charisma": 65,
+        "vigor": 80,
+        "intuition": 45,
+        "resolve": 60
+      },
+      "qualities": "Courageous, energetic, impulsive, and pioneering.",
+      "shortcomings": "Impulsive, aggressive, impatient, selfish",
+      "physical_traits": "Sharp features, athletic, prone to facial scars/redness.",
+      "ruling_zones": ["Head", "Face"]
+    },
+    {
+      "name": "Taurus",
+      "type": "sign",
+      "start": "04-24",
+      "end": "05-17",
+      "element": "Earth",
+      "modality": "Fixed",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 60,
+        "spirit": 65,
+        "charisma": 60,
+        "vigor": 68,
+        "intuition": 55,
+        "resolve": 75
+      },
+      "qualities": "Reliable, patient, practical, and devoted.",
+      "shortcomings": "Stubborn, possessive, lazy",
+      "physical_traits": "Strong neck, sturdy build, soulful eyes, clear skin.",
+      "ruling_zones": ["Neck", "Throat"]
+    },
+    {
+      "name": "Gemini",
+      "type": "sign",
+      "start": "05-25",
+      "end": "06-17",
+      "element": "Air",
+      "modality": "Mutable",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 85,
+        "spirit": 65,
+        "charisma": 70,
+        "vigor": 55,
+        "intuition": 65,
+        "resolve": 50
+      },
+      "qualities": "Adaptable, outgoing, intelligent, and inquisitive.",
+      "shortcomings": "Nervous, inconsistent, gossipy",
+      "physical_traits": "Long limbs, expressive hands, youthful appearance, agile.",
+      "ruling_zones": ["Arms", "Lungs"]
+    },
+    {
+      "name": "Cancer",
+      "type": "sign",
+      "start": "06-25",
+      "end": "07-19",
+      "element": "Water",
+      "modality": "Cardinal",
+      "base_stats": {
+        "vitality": 65,
+        "intellect": 60,
+        "spirit": 70,
+        "charisma": 68,
+        "vigor": 58,
+        "intuition": 85,
+        "resolve": 55
+      },
+      "qualities": "Intuitive, sentimental, protective, and compassionate.",
+      "shortcomings": "Moody, clingy, oversensitive",
+      "physical_traits": "Rounded 'moon' face, soft features, pale/clear complexion.",
+      "ruling_zones": ["Chest", "Stomach"]
+    },
+    {
+      "name": "Leo",
+      "type": "sign",
+      "start": "07-27",
+      "end": "08-19",
+      "element": "Fire",
+      "modality": "Fixed",
+      "base_stats": {
+        "vitality": 80,
+        "intellect": 60,
+        "spirit": 85,
+        "charisma": 85,
+        "vigor": 75,
+        "intuition": 55,
+        "resolve": 70
+      },
+      "qualities": "Confident, generous, charismatic, and dramatic.",
+      "shortcomings": "Arrogant, stubborn, attention-seeking",
+      "physical_traits": "Thick hair (mane-like), broad shoulders, commanding posture.",
+      "ruling_zones": ["Heart", "Spine"]
+    },
+    {
+      "name": "Virgo",
+      "type": "sign",
+      "start": "08-27",
+      "end": "09-19",
+      "element": "Earth",
+      "modality": "Mutable",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 80,
+        "spirit": 55,
+        "charisma": 55,
+        "vigor": 62,
+        "intuition": 65,
+        "resolve": 68
+      },
+      "qualities": "Analytical, hardworking, kind, and systematic.",
+      "shortcomings": "Overcritical, perfectionist, worrier",
+      "physical_traits": "Neat appearance, slim build, intelligent eyes, delicate hands.",
+      "ruling_zones": ["Digestive system", "Intestines"]
+    },
+    {
+      "name": "Libra",
+      "type": "sign",
+      "start": "09-27",
+      "end": "10-19",
+      "element": "Air",
+      "modality": "Cardinal",
+      "base_stats": {
+        "vitality": 58,
+        "intellect": 75,
+        "spirit": 65,
+        "charisma": 80,
+        "vigor": 55,
+        "intuition": 70,
+        "resolve": 55
+      },
+      "qualities": "Diplomatic, social, fair-minded, and artistic.",
+      "shortcomings": "Indecisive, avoidant, self-pitying",
+      "physical_traits": "Symmetrical features, graceful movements, charming smile, clear skin.",
+      "ruling_zones": ["Kidneys", "Skin"]
+    },
+    {
+      "name": "Scorpio",
+      "type": "sign",
+      "start": "10-27",
+      "end": "11-18",
+      "element": "Water",
+      "modality": "Fixed",
+      "base_stats": {
+        "vitality": 72,
+        "intellect": 70,
+        "spirit": 75,
+        "charisma": 68,
+        "vigor": 70,
+        "intuition": 88,
+        "resolve": 80
+      },
+      "qualities": "Resourceful, brave, passionate, and mysterious.",
+      "shortcomings": "Jealous, secretive, obsessive",
+      "physical_traits": "Piercing eyes, magnetic presence, strong bone structure, intense gaze.",
+      "ruling_zones": ["Reproductive system", "Pelvis"]
+    },
+    {
+      "name": "Sagittarius",
+      "type": "sign",
+      "start": "11-26",
+      "end": "12-18",
+      "element": "Fire",
+      "modality": "Mutable",
+      "base_stats": {
+        "vitality": 75,
+        "intellect": 70,
+        "spirit": 80,
+        "charisma": 75,
+        "vigor": 72,
+        "intuition": 65,
+        "resolve": 60
+      },
+      "qualities": "Optimistic, adventurous, honest, and philosophical.",
+      "shortcomings": "Tactless, restless, overconfident",
+      "physical_traits": "Athletic build, long legs, open smile, expressive face.",
+      "ruling_zones": ["Hips", "Liver"]
+    },
+    {
+      "name": "Capricorn",
+      "type": "sign",
+      "start": "12-26",
+      "end": "01-16",
+      "element": "Earth",
+      "modality": "Cardinal",
+      "base_stats": {
+        "vitality": 65,
+        "intellect": 72,
+        "spirit": 58,
+        "charisma": 60,
+        "vigor": 68,
+        "intuition": 60,
+        "resolve": 85
+      },
+      "qualities": "Disciplined, ambitious, patient, and responsible.",
+      "shortcomings": "Pessimistic, unforgiving, rigid",
+      "physical_traits": "Lean build, prominent bone structure, serious expression, well-defined jaw.",
+      "ruling_zones": ["Knees", "Bones"]
+    },
+    {
+      "name": "Aquarius",
+      "type": "sign",
+      "start": "01-24",
+      "end": "02-15",
+      "element": "Air",
+      "modality": "Fixed",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 85,
+        "spirit": 70,
+        "charisma": 68,
+        "vigor": 58,
+        "intuition": 72,
+        "resolve": 65
+      },
+      "qualities": "Progressive, original, independent, and humanitarian.",
+      "shortcomings": "Unpredictable, detached, rebellious",
+      "physical_traits": "Unusual features, tall or lanky, bright eyes, eccentric style.",
+      "ruling_zones": ["Calves", "Circulatory system"]
+    },
+    {
+      "name": "Pisces",
+      "type": "sign",
+      "start": "02-23",
+      "end": "03-17",
+      "element": "Water",
+      "modality": "Mutable",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 68,
+        "spirit": 78,
+        "charisma": 65,
+        "vigor": 52,
+        "intuition": 90,
+        "resolve": 50
+      },
+      "qualities": "Compassionate, artistic, intuitive, and gentle.",
+      "shortcomings": "Escapist, oversensitive, vague",
+      "physical_traits": "Dreamy eyes, soft skin, small/sensitive feet.",
+      "ruling_zones": ["Feet", "Lymphatic system"]
+    }
+  ]
+}

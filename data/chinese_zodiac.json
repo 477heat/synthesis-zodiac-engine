@@ -1,0 +1,1347 @@
+git checkout feature/chinese-zodiac-data
+{
+  "chinese_zodiac": [
+    {
+      "designation": "Fire Dog",
+      "animal": "Dog",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Courageous Dog",
+      "qualities": "Passionate and honest; fights for the underdog and never backs down from a challenge.",
+      "shortcomings": "Impatient and defiant; can be a 'loose cannon' when they feel a rule is unjust.",
+      "physical_tendencies": "Athletic, alert/tense posture",
+      "base_stats": {
+        "vitality": 80,
+        "intellect": 40,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 75,
+        "intuition": 35,
+        "resolve": 70
+      },
+      "date_ranges": [
+        { "start": "1946-02-02", "end": "1947-01-21" },
+        { "start": "2006-01-29", "end": "2007-02-17" }
+      ]
+    },
+    {
+      "designation": "Fire Pig",
+      "animal": "Pig",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Courageous Pig",
+      "qualities": "Optimistic and brave; loves life and isn't afraid to go after what they want.",
+      "shortcomings": "Reckless and hot-headed; their 'big heart' can sometimes lead to big disasters.",
+      "physical_tendencies": "Broad, hearty, vibrant presence",
+      "base_stats": {
+        "vitality": 75,
+        "intellect": 35,
+        "spirit": 50,
+        "charisma": 45,
+        "vigor": 65,
+        "intuition": 45,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "1947-01-22", "end": "1948-02-09" },
+        { "start": "2007-02-18", "end": "2008-02-06" }
+      ]
+    },
+    {
+      "designation": "Earth Rat",
+      "animal": "Rat",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Grounded Rat",
+      "qualities": "Exceptionally reliable with a strong sense of duty, stability, and financial prudence.",
+      "shortcomings": "Overly cautious to the point of stagnation; often struggles with modern or rapid changes.",
+      "physical_tendencies": "Solid build, calm/steady gaze",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 75,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 60,
+        "resolve": 65
+      },
+      "date_ranges": [
+        { "start": "1948-02-10", "end": "1949-01-28" },
+        { "start": "2008-02-07", "end": "2009-01-25" }
+      ]
+    },
+    {
+      "designation": "Earth Ox",
+      "animal": "Ox",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Enduring Ox",
+      "qualities": "The epitome of sincerity and diligence; excels at building lasting structures or systems.",
+      "shortcomings": "Lacks imagination and can be brutally blunt, hurting others with unnecessary 'honesty'.",
+      "physical_tendencies": "Heavy set, stable/slow gait",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 55,
+        "spirit": 35,
+        "charisma": 30,
+        "vigor": 40,
+        "intuition": 30,
+        "resolve": 90
+      },
+      "date_ranges": [
+        { "start": "1949-01-29", "end": "1950-02-16" },
+        { "start": "2009-01-26", "end": "2010-02-13" }
+      ]
+    },
+    {
+      "designation": "Metal Tiger",
+      "animal": "Tiger",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Competitive Tiger",
+      "qualities": "Assertive and restless; thrives on competition and possesses a sharp, biting wit.",
+      "shortcomings": "Vengeful if slighted and incredibly stubborn when their methods are questioned.",
+      "physical_tendencies": "Sharp profile, lean/ready body",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 40,
+        "spirit": 50,
+        "charisma": 90,
+        "vigor": 85,
+        "intuition": 35,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1950-02-17", "end": "1951-02-05" },
+        { "start": "2010-02-14", "end": "2011-02-02" }
+      ]
+    },
+    {
+      "designation": "Metal Rabbit",
+      "animal": "Rabbit",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Resilient Rabbit",
+      "qualities": "Shrewd and ambitious; possesses a 'hidden' strength and a keen eye for opportunity.",
+      "shortcomings": "Can appear physically fragile and emotionally cold; often keeps others at a distance.",
+      "physical_tendencies": "Refined, petite or delicate",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 65,
+        "spirit": 55,
+        "charisma": 70,
+        "vigor": 45,
+        "intuition": 60,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1951-02-06", "end": "1952-01-26" },
+        { "start": "2011-02-03", "end": "2012-01-22" }
+      ]
+    },
+    {
+      "designation": "Water Dragon",
+      "animal": "Dragon",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Far-sighted Dragon",
+      "qualities": "Optimistic and wise; possesses a flexible ego that allows for great social influence.",
+      "shortcomings": "Can be self-centered and emotionally detached, treating people like pawns in a plan.",
+      "physical_tendencies": "Graceful, expansive presence",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 85,
+        "spirit": 50,
+        "charisma": 55,
+        "vigor": 55,
+        "intuition": 60,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1952-01-27", "end": "1953-02-13" },
+        { "start": "2012-01-23", "end": "2013-02-09" }
+      ]
+    },
+    {
+      "designation": "Water Snake",
+      "animal": "Snake",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Intellectual Snake",
+      "qualities": "Insightful and social; possesses the gift of gab and a very quick, adaptive mind.",
+      "shortcomings": "Fickle and deceptive; likely to change their story to suit the current company.",
+      "physical_tendencies": "Fluid, slender, very agile",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 90,
+        "spirit": 45,
+        "charisma": 50,
+        "vigor": 35,
+        "intuition": 85,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1953-02-14", "end": "1954-02-02" },
+        { "start": "2013-02-10", "end": "2014-01-30" }
+      ]
+    },
+    {
+      "designation": "Wood Horse",
+      "animal": "Horse",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Stable Horse",
+      "qualities": "Systematic and social; a team player who can organize a group with great efficiency.",
+      "shortcomings": "Rebellious and stubborn; hates being 'reined in' by rules or tradition.",
+      "physical_tendencies": "Strong, well-proportioned body",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 40,
+        "spirit": 75,
+        "charisma": 55,
+        "vigor": 60,
+        "intuition": 50,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1954-02-03", "end": "1955-01-23" },
+        { "start": "2014-01-31", "end": "2015-02-18" }
+      ]
+    },
+    {
+      "designation": "Wood Goat",
+      "animal": "Goat",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Compassionate Goat",
+      "qualities": "Thoughtful and polite; always willing to help and possesses a deep love for nature.",
+      "shortcomings": "Emotional and clingy; can become a burden to others through their constant neediness.",
+      "physical_tendencies": "Soft, slender, refined limbs",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 30,
+        "spirit": 90,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 70,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "1955-01-24", "end": "1956-02-11" },
+        { "start": "2015-02-19", "end": "2016-02-07" }
+      ]
+    },
+    {
+      "designation": "Fire Monkey",
+      "animal": "Monkey",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Adventurous Monkey",
+      "qualities": "Ambitious and witty; a natural leader who loves taking risks and being first.",
+      "shortcomings": "Jealous and aggressive; can be quite a bully when they don't get their way.",
+      "physical_tendencies": "High energy, sharp/roving eyes",
+      "base_stats": {
+        "vitality": 75,
+        "intellect": 55,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 70,
+        "intuition": 45,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1956-02-12", "end": "1957-01-30" },
+        { "start": "2016-02-08", "end": "2017-01-27" }
+      ]
+    },
+    {
+      "designation": "Fire Rooster",
+      "animal": "Rooster",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Punctual Rooster",
+      "qualities": "Strong and dynamic; a military-like precision makes them a force to be reckoned with.",
+      "shortcomings": "Fanatical and rigid; cannot tolerate any deviation from their established plan.",
+      "physical_tendencies": "Proud posture, sharp/stern gaze",
+      "base_stats": {
+        "vitality": 75,
+        "intellect": 50,
+        "spirit": 35,
+        "charisma": 40,
+        "vigor": 60,
+        "intuition": 35,
+        "resolve": 55
+      },
+      "date_ranges": [
+        { "start": "1957-01-31", "end": "1958-02-17" },
+        { "start": "2017-01-28", "end": "2018-02-15" }
+      ]
+    },
+    {
+      "designation": "Earth Dog",
+      "animal": "Dog",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Dedicated Dog",
+      "qualities": "Faithful and quiet; values a stable life and is deeply committed to their work.",
+      "shortcomings": "Stubborn and cynical; prone to 'grumpy' moods where they see the worst in people.",
+      "physical_tendencies": "Solid build, calm/loyal eyes",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 60,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 40,
+        "intuition": 35,
+        "resolve": 80
+      },
+      "date_ranges": [
+        { "start": "1958-02-18", "end": "1959-02-07" },
+        { "start": "2018-02-16", "end": "2019-02-04" }
+      ]
+    },
+    {
+      "designation": "Earth Pig",
+      "animal": "Pig",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Productive Pig",
+      "qualities": "Sensible and happy; a lover of comfort who knows how to work hard for it.",
+      "shortcomings": "Lazy and materialistic; can become obsessed with food, wealth, or physical luxury.",
+      "physical_tendencies": "Robust, heavy set, solid build",
+      "base_stats": {
+        "vitality": 65,
+        "intellect": 55,
+        "spirit": 50,
+        "charisma": 45,
+        "vigor": 35,
+        "intuition": 45,
+        "resolve": 75
+      },
+      "date_ranges": [
+        { "start": "1959-02-08", "end": "1960-01-27" },
+        { "start": "2019-02-05", "end": "2020-01-24" }
+      ]
+    },
+    {
+      "designation": "Metal Rat",
+      "animal": "Rat",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Intense Rat",
+      "qualities": "Fiercely determined and resourceful, especially in high-stakes environments and finance.",
+      "shortcomings": "Struggles with intense possessiveness and can be cold-hearted when authority is challenged.",
+      "physical_tendencies": "Sharp features, stylish/stern",
+      "base_stats": {
+        "vitality": 35,
+        "intellect": 55,
+        "spirit": 40,
+        "charisma": 75,
+        "vigor": 50,
+        "intuition": 60,
+        "resolve": 65
+      },
+      "date_ranges": [
+        { "start": "1960-01-28", "end": "1961-02-14" },
+        { "start": "2020-01-25", "end": "2021-02-11" }
+      ]
+    },
+    {
+      "designation": "Metal Ox",
+      "animal": "Ox",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Iron Ox",
+      "qualities": "Possesses an iron will; dependable under extreme pressure and fiercely loyal to family.",
+      "shortcomings": "Highly opinionated and can be harsh or judgmental toward those they deem 'weak'.",
+      "physical_tendencies": "Strong bone structure, rigid",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 35,
+        "spirit": 35,
+        "charisma": 60,
+        "vigor": 60,
+        "intuition": 30,
+        "resolve": 90
+      },
+      "date_ranges": [
+        { "start": "1961-02-15", "end": "1962-02-04" },
+        { "start": "2021-02-12", "end": "2022-01-31" }
+      ]
+    },
+    {
+      "designation": "Water Tiger",
+      "animal": "Tiger",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Philosophical Tiger",
+      "qualities": "Calm and artistic; possesses a deep well of empathy and a clear, objective mind.",
+      "shortcomings": "Prone to escapism when life gets difficult; struggles to commit to a single path.",
+      "physical_tendencies": "Clear skin, thoughtful/wide eyes",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 70,
+        "spirit": 50,
+        "charisma": 60,
+        "vigor": 65,
+        "intuition": 55,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1962-02-05", "end": "1963-01-24" },
+        { "start": "2022-02-01", "end": "2023-01-21" }
+      ]
+    },
+    {
+      "designation": "Water Rabbit",
+      "animal": "Rabbit",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Empathetic Rabbit",
+      "qualities": "Sensitive and often psychic; possesses a profound ability to heal or comfort others.",
+      "shortcomings": "Highly vulnerable to toxic environments; prone to 'disappearing' when stress hits.",
+      "physical_tendencies": "Soft features, 'dreamy' look",
+      "base_stats": {
+        "vitality": 30,
+        "intellect": 75,
+        "spirit": 55,
+        "charisma": 50,
+        "vigor": 25,
+        "intuition": 90,
+        "resolve": 40
+      },
+      "date_ranges": [
+        { "start": "1963-01-25", "end": "1964-02-12" },
+        { "start": "2023-01-22", "end": "2024-02-09" }
+      ]
+    },
+    {
+      "designation": "Wood Dragon",
+      "animal": "Dragon",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Creative Dragon",
+      "qualities": "Innovative and inquisitive; seeks to master complex subjects and lead through logic.",
+      "shortcomings": "Argumentative and prideful; finds it difficult to admit they are wrong in a debate.",
+      "physical_tendencies": "Large build, noble/bold face",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 45,
+        "spirit": 80,
+        "charisma": 55,
+        "vigor": 55,
+        "intuition": 50,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1964-02-13", "end": "1965-02-01" },
+        { "start": "2024-02-10", "end": "2025-01-28" }
+      ]
+    },
+    {
+      "designation": "Wood Snake",
+      "animal": "Snake",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Orderly Snake",
+      "qualities": "Wise and structured; values intellectual growth and maintains a refined lifestyle.",
+      "shortcomings": "Vain and judgmental; tends to look down on those who don't meet their standards.",
+      "physical_tendencies": "Elegant, long/graceful neck",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 60,
+        "spirit": 75,
+        "charisma": 50,
+        "vigor": 35,
+        "intuition": 35,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1965-02-02", "end": "1966-01-20" },
+        { "start": "2025-01-29", "end": "2026-02-16" }
+      ]
+    },
+    {
+      "designation": "Fire Horse",
+      "animal": "Horse",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Wild Horse",
+      "qualities": "Totally independent and flashy; thrives on excitement, travel, and new frontiers.",
+      "shortcomings": "Extremely volatile; their temper and impulsivity can lead to frequent life resets.",
+      "physical_tendencies": "Lean, high energy, often tall",
+      "base_stats": {
+        "vitality": 80,
+        "intellect": 40,
+        "spirit": 45,
+        "charisma": 55,
+        "vigor": 80,
+        "intuition": 30,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1966-01-21", "end": "1967-02-08" },
+        { "start": "2026-02-17", "end": "2027-02-05" }
+      ]
+    },
+    {
+      "designation": "Fire Goat",
+      "animal": "Goat",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Artistic Goat",
+      "qualities": "Highly creative and dramatic; loves the arts and possesses a vibrant imagination.",
+      "shortcomings": "Insecure and moody; their self-worth is often entirely dependent on others' praise.",
+      "physical_tendencies": "Striking hair, emotional face",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 30,
+        "spirit": 60,
+        "charisma": 45,
+        "vigor": 50,
+        "intuition": 50,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "1967-02-09", "end": "1968-01-29" }
+      ]
+    },
+    {
+      "designation": "Earth Monkey",
+      "animal": "Monkey",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Dedicated Monkey",
+      "qualities": "Trustworthy and calm; the most reliable monkey who values hard work over tricks.",
+      "shortcomings": "Unimaginative and detached; can become boring or overly fixated on routine.",
+      "physical_tendencies": "Solid, square frame, calm face",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 75,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 50,
+        "intuition": 45,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1968-01-30", "end": "1969-02-16" }
+      ]
+    },
+    {
+      "designation": "Earth Rooster",
+      "animal": "Rooster",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Critical Rooster",
+      "qualities": "Analytical and efficient; possesses a keen eye for detail and a love for logic.",
+      "shortcomings": "Perfectionist and harsh; sets impossible standards for themselves and others.",
+      "physical_tendencies": "Compact, sturdy, very tidy",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 70,
+        "spirit": 35,
+        "charisma": 40,
+        "vigor": 40,
+        "intuition": 35,
+        "resolve": 85
+      },
+      "date_ranges": [
+        { "start": "1969-02-17", "end": "1970-02-05" }
+      ]
+    },
+    {
+      "designation": "Metal Dog",
+      "animal": "Dog",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Noble Dog",
+      "qualities": "Disciplined and serious; a person of high morals and a very strong sense of justice.",
+      "shortcomings": "Cold and critical; can be very hard on those who don't share their ethics.",
+      "physical_tendencies": "Strong bone structure, tall",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 40,
+        "spirit": 40,
+        "charisma": 65,
+        "vigor": 60,
+        "intuition": 35,
+        "resolve": 80
+      },
+      "date_ranges": [
+        { "start": "1970-02-06", "end": "1971-01-26" }
+      ]
+    },
+    {
+      "designation": "Metal Pig",
+      "animal": "Pig",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Resolute Pig",
+      "qualities": "Strong-willed and proud; a person who never gives up on a goal once set.",
+      "shortcomings": "Competitive and blunt; can be quite 'ruthless' when they are trying to win.",
+      "physical_tendencies": "Sturdy, intense/proud presence",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 35,
+        "spirit": 50,
+        "charisma": 65,
+        "vigor": 55,
+        "intuition": 45,
+        "resolve": 75
+      },
+      "date_ranges": [
+        { "start": "1971-01-27", "end": "1972-02-14" }
+      ]
+    },
+    {
+      "designation": "Water Rat",
+      "animal": "Rat",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Insightful Rat",
+      "qualities": "Highly persuasive with a deep understanding of human psychology and social undercurrents.",
+      "shortcomings": "May use charm to bend others to their will; rarely reveals true intentions, leading to distrust.",
+      "physical_tendencies": "Fluid movements, soft/deep eyes",
+      "base_stats": {
+        "vitality": 35,
+        "intellect": 85,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 90,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1972-02-15", "end": "1973-02-02" }
+      ]
+    },
+    {
+      "designation": "Water Ox",
+      "animal": "Ox",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Sensitive Ox",
+      "qualities": "A perceptive thinker who values fairness and maintains a surprisingly flexible mind.",
+      "shortcomings": "Over-analytical to the point of inaction; can be overly quiet or socially withdrawn.",
+      "physical_tendencies": "Rounder face, calm/cool aura",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 65,
+        "spirit": 35,
+        "charisma": 30,
+        "vigor": 40,
+        "intuition": 60,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1973-02-03", "end": "1974-01-22" }
+      ]
+    },
+    {
+      "designation": "Wood Tiger",
+      "animal": "Tiger",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Social Tiger",
+      "qualities": "A warm-hearted rebel who seeks to improve the world through tolerance and innovation.",
+      "shortcomings": "Often suffers from chronic indecisiveness and is overly sensitive to public criticism.",
+      "physical_tendencies": "Tall, athletic/lithe frame",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 40,
+        "spirit": 80,
+        "charisma": 60,
+        "vigor": 65,
+        "intuition": 55,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1974-01-23", "end": "1975-02-10" }
+      ]
+    },
+    {
+      "designation": "Wood Rabbit",
+      "animal": "Rabbit",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Generous Rabbit",
+      "qualities": "Deeply sympathetic and kind; excels at diplomacy and creating beautiful environments.",
+      "shortcomings": "Can be overly submissive to stronger personalities and suffers from frequent mood swings.",
+      "physical_tendencies": "Slender, gentle/soft features",
+      "base_stats": {
+        "vitality": 30,
+        "intellect": 45,
+        "spirit": 85,
+        "charisma": 50,
+        "vigor": 25,
+        "intuition": 80,
+        "resolve": 40
+      },
+      "date_ranges": [
+        { "start": "1975-02-11", "end": "1976-01-30" }
+      ]
+    },
+    {
+      "designation": "Fire Dragon",
+      "animal": "Dragon",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Forceful Dragon",
+      "qualities": "A masterful, vibrant personality who commands attention and expects perfection.",
+      "shortcomings": "Overbearing and reckless; their 'fire' can burn bridges as quickly as it builds them.",
+      "physical_tendencies": "Commanding, athletic frame",
+      "base_stats": {
+        "vitality": 90,
+        "intellect": 45,
+        "spirit": 50,
+        "charisma": 55,
+        "vigor": 75,
+        "intuition": 30,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1976-01-31", "end": "1977-02-17" }
+      ]
+    },
+    {
+      "designation": "Fire Snake",
+      "animal": "Snake",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Charismatic Snake",
+      "qualities": "Active and extroverted; a natural performer with a magnetic, seductive energy.",
+      "shortcomings": "Highly suspicious and jealous; prone to 'venomous' words when feeling threatened.",
+      "physical_tendencies": "Striking, intense/dark beauty",
+      "base_stats": {
+        "vitality": 70,
+        "intellect": 60,
+        "spirit": 45,
+        "charisma": 50,
+        "vigor": 55,
+        "intuition": 55,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1977-02-18", "end": "1978-02-06" }
+      ]
+    },
+    {
+      "designation": "Earth Horse",
+      "animal": "Horse",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Docile Horse",
+      "qualities": "Efficient and friendly; values stability and works hard to provide for their family.",
+      "shortcomings": "Indecisive and overly cautious; often misses out on great opportunities due to fear.",
+      "physical_tendencies": "Heavy-boned, broad/stable",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 60,
+        "spirit": 45,
+        "charisma": 55,
+        "vigor": 60,
+        "intuition": 30,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1978-02-07", "end": "1979-01-27" }
+      ]
+    },
+    {
+      "designation": "Earth Goat",
+      "animal": "Goat",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Cautious Goat",
+      "qualities": "Sincere and stable; a homebody who values tradition and a quiet, peaceful life.",
+      "shortcomings": "Pessimistic and slow-moving; prone to complaining about their lot in life.",
+      "physical_tendencies": "Short, sturdy, grounded build",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 50,
+        "spirit": 60,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 50,
+        "resolve": 75
+      },
+      "date_ranges": [
+        { "start": "1979-01-28", "end": "1980-02-15" }
+      ]
+    },
+    {
+      "designation": "Metal Monkey",
+      "animal": "Monkey",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Shrewd Monkey",
+      "qualities": "Hardworking and a risk-taker; possesses a sharp mind for business and finance.",
+      "shortcomings": "Cynical and boastful; their constant bragging about success can alienate friends.",
+      "physical_tendencies": "Sharp features, strong jawline",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 55,
+        "spirit": 40,
+        "charisma": 75,
+        "vigor": 70,
+        "intuition": 45,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1980-02-16", "end": "1981-02-04" }
+      ]
+    },
+    {
+      "designation": "Metal Rooster",
+      "animal": "Rooster",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Practical Rooster",
+      "qualities": "Industrious and logical; values tangible results and is very good with money.",
+      "shortcomings": "Dogmatic and aloof; can be quite 'preachy' about their own beliefs and lifestyle.",
+      "physical_tendencies": "Sharp, polished, 'metallic' look",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 50,
+        "spirit": 35,
+        "charisma": 60,
+        "vigor": 60,
+        "intuition": 35,
+        "resolve": 85
+      },
+      "date_ranges": [
+        { "start": "1981-02-05", "end": "1982-01-24" }
+      ]
+    },
+    {
+      "designation": "Water Dog",
+      "animal": "Dog",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Reflective Dog",
+      "qualities": "Easy-going and fluid; the most relaxed dog who enjoys life's simple pleasures.",
+      "shortcomings": "Careless and emotional; can be too indulgent with themselves and their loved ones.",
+      "physical_tendencies": "Expressive, agile, soft gait",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 70,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 40,
+        "intuition": 65,
+        "resolve": 50
+      },
+      "date_ranges": [
+        { "start": "1982-01-25", "end": "1983-02-12" }
+      ]
+    },
+    {
+      "designation": "Water Pig",
+      "animal": "Pig",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Intuitive Pig",
+      "qualities": "Diplomatic and clever; possesses a sharp mind hidden behind a jovial exterior.",
+      "shortcomings": "Secretive and over-indulgent; likely to have 'hidden lives' or secret habits.",
+      "physical_tendencies": "Round features, soft/easy gait",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 65,
+        "spirit": 50,
+        "charisma": 45,
+        "vigor": 35,
+        "intuition": 75,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "1983-02-13", "end": "1984-02-01" }
+      ]
+    },
+    {
+      "designation": "Wood Rat",
+      "animal": "Rat",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Aspiring Rat",
+      "qualities": "A strategic visionary who values growth, social harmony, and ethical progress.",
+      "shortcomings": "Can be overly defensive of personal ideas and lacks the patience for long-term fruition.",
+      "physical_tendencies": "Tall, lean, quick/bright eyes",
+      "base_stats": {
+        "vitality": 35,
+        "intellect": 55,
+        "spirit": 70,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 80,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1984-02-02", "end": "1985-02-19" }
+      ]
+    },
+    {
+      "designation": "Wood Ox",
+      "animal": "Ox",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Flexible Ox",
+      "qualities": "More cooperative than other Oxen, valuing teamwork, ethics, and steady development.",
+      "shortcomings": "Can be agonizingly slow to take necessary risks and often remains passive in conflicts.",
+      "physical_tendencies": "Strong limbs, kind/heavy face",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 35,
+        "spirit": 65,
+        "charisma": 30,
+        "vigor": 40,
+        "intuition": 50,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1985-02-20", "end": "1986-02-08" }
+      ]
+    },
+    {
+      "designation": "Fire Tiger",
+      "animal": "Tiger",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Radiant Tiger",
+      "qualities": "Enthusiastic and fearless; a trailblazer who inspires others with their vibrant energy.",
+      "shortcomings": "Prone to eccentric behavior and reckless gambles that can lead to sudden financial ruin.",
+      "physical_tendencies": "Bright eyes, vibrant complexion",
+      "base_stats": {
+        "vitality": 85,
+        "intellect": 40,
+        "spirit": 50,
+        "charisma": 60,
+        "vigor": 85,
+        "intuition": 35,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1986-02-09", "end": "1987-01-28" }
+      ]
+    },
+    {
+      "designation": "Fire Rabbit",
+      "animal": "Rabbit",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Intuitive Rabbit",
+      "qualities": "Affectionate and bright; possesses a natural spark that draws people to their warmth.",
+      "shortcomings": "Discreetly temperamental; may harbor deep-seated resentment beneath a polite exterior.",
+      "physical_tendencies": "Radiant, youthful/small look",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 45,
+        "spirit": 55,
+        "charisma": 50,
+        "vigor": 45,
+        "intuition": 60,
+        "resolve": 40
+      },
+      "date_ranges": [
+        { "start": "1987-01-29", "end": "1988-02-16" }
+      ]
+    },
+    {
+      "designation": "Earth Dragon",
+      "animal": "Dragon",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Temperate Dragon",
+      "qualities": "Industrious and quiet; prefers to lead through example and building solid foundations.",
+      "shortcomings": "Can be dictatorial in a quiet way; heavy-handed when their authority is ignored.",
+      "physical_tendencies": "Solid, mountain-like build",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 65,
+        "spirit": 50,
+        "charisma": 55,
+        "vigor": 55,
+        "intuition": 30,
+        "resolve": 65
+      },
+      "date_ranges": [
+        { "start": "1988-02-17", "end": "1989-02-05" }
+      ]
+    },
+    {
+      "designation": "Earth Snake",
+      "animal": "Snake",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Reliable Snake",
+      "qualities": "Calm, persistent, and grounded; the most approachable and helpful of the snakes.",
+      "shortcomings": "Slow to forgive and can be surprisingly lazy if they don't see an immediate benefit.",
+      "physical_tendencies": "Gentle, grounded/solid build",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 80,
+        "spirit": 45,
+        "charisma": 50,
+        "vigor": 35,
+        "intuition": 55,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1989-02-06", "end": "1990-01-26" }
+      ]
+    },
+    {
+      "designation": "Metal Horse",
+      "animal": "Horse",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Bold Horse",
+      "qualities": "Courageous and popular; a natural star who loves being the center of attention.",
+      "shortcomings": "Unstable and often selfish; their need for admiration can exhaust their partners.",
+      "physical_tendencies": "Athletic, muscular, bright eyes",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 40,
+        "spirit": 45,
+        "charisma": 75,
+        "vigor": 80,
+        "intuition": 30,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1990-01-27", "end": "1991-02-14" }
+      ]
+    },
+    {
+      "designation": "Metal Goat",
+      "animal": "Goat",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Determined Goat",
+      "qualities": "Aesthetic and loyal; possesses a refined taste and a 'hidden' toughness.",
+      "shortcomings": "Vulnerable and brittle; takes criticism so personally that it can cause a shutdown.",
+      "physical_tendencies": "Delicate but 'hard' facial edge",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 30,
+        "spirit": 60,
+        "charisma": 65,
+        "vigor": 50,
+        "intuition": 50,
+        "resolve": 75
+      },
+      "date_ranges": [
+        { "start": "1991-02-15", "end": "1992-02-03" }
+      ]
+    },
+    {
+      "designation": "Water Monkey",
+      "animal": "Monkey",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Persuasive Monkey",
+      "qualities": "Cooperative and fluid; excels at communication and finding the path of least resistance.",
+      "shortcomings": "Devious and secretive; their motives are often obscured by a layer of 'nice' talk.",
+      "physical_tendencies": "Expressive, youthful, agile",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 85,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 50,
+        "intuition": 75,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "1992-02-04", "end": "1993-01-22" }
+      ]
+    },
+    {
+      "designation": "Water Rooster",
+      "animal": "Rooster",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Intellectual Rooster",
+      "qualities": "Communicative and quiet; prefers intellectual pursuits and deep conversation.",
+      "shortcomings": "Fickle and over-analytical; can get lost in thoughts and forget to actually act.",
+      "physical_tendencies": "Soft, intelligent/watchful eyes",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 80,
+        "spirit": 35,
+        "charisma": 40,
+        "vigor": 40,
+        "intuition": 65,
+        "resolve": 55
+      },
+      "date_ranges": [
+        { "start": "1993-01-23", "end": "1994-02-09" }
+      ]
+    },
+    {
+      "designation": "Wood Dog",
+      "animal": "Dog",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Loyal Dog",
+      "qualities": "Reliable and warm; a person who will stand by their friends through any crisis.",
+      "shortcomings": "Nervous and overly observant; always waiting for the 'other shoe' to drop.",
+      "physical_tendencies": "Sturdy, friendly/warm face",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 40,
+        "spirit": 70,
+        "charisma": 45,
+        "vigor": 40,
+        "intuition": 55,
+        "resolve": 50
+      },
+      "date_ranges": [
+        { "start": "1994-02-10", "end": "1995-01-30" }
+      ]
+    },
+    {
+      "designation": "Wood Pig",
+      "animal": "Pig",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Cooperative Pig",
+      "qualities": "Good-natured and social; a person who brings people together with their warmth.",
+      "shortcomings": "Gullible and passive; easily taken advantage of by more predatory personalities.",
+      "physical_tendencies": "Large, soft, friendly appearance",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 35,
+        "spirit": 80,
+        "charisma": 45,
+        "vigor": 35,
+        "intuition": 65,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "1995-01-31", "end": "1996-02-18" }
+      ]
+    },
+    {
+      "designation": "Fire Rat",
+      "animal": "Rat",
+      "element": "Fire",
+      "polarity": "Yang",
+      "symbol_vibe": "The Bold Rat",
+      "qualities": "A magnetic leader driven by high ideals, intense passion, and a competitive spirit.",
+      "shortcomings": "Prone to explosive emotional outbursts and may steamroll others' opinions.",
+      "physical_tendencies": "High energy, expressive face",
+      "base_stats": {
+        "vitality": 65,
+        "intellect": 55,
+        "spirit": 40,
+        "charisma": 45,
+        "vigor": 50,
+        "intuition": 60,
+        "resolve": 35
+      },
+      "date_ranges": [
+        { "start": "1996-02-19", "end": "1997-02-06" }
+      ]
+    },
+    {
+      "designation": "Fire Ox",
+      "animal": "Ox",
+      "element": "Fire",
+      "polarity": "Yin",
+      "symbol_vibe": "The Explosive Ox",
+      "qualities": "Possesses an unparalleled work ethic fueled by a dynamic, commanding presence.",
+      "shortcomings": "Often suffers from a short fuse and an 'all-or-nothing' mentality that alienates peers.",
+      "physical_tendencies": "Broad shoulders, intense aura",
+      "base_stats": {
+        "vitality": 80,
+        "intellect": 35,
+        "spirit": 35,
+        "charisma": 30,
+        "vigor": 60,
+        "intuition": 30,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1997-02-07", "end": "1998-01-27" }
+      ]
+    },
+    {
+      "designation": "Earth Tiger",
+      "animal": "Tiger",
+      "element": "Earth",
+      "polarity": "Yang",
+      "symbol_vibe": "The Focused Tiger",
+      "qualities": "A steady and objective leader who grounds their tiger-instincts in practical reality.",
+      "shortcomings": "Can be self-righteous and emotionally cold, prioritizing the 'mission' over people.",
+      "physical_tendencies": "Sturdy, commanding posture",
+      "base_stats": {
+        "vitality": 55,
+        "intellect": 60,
+        "spirit": 50,
+        "charisma": 60,
+        "vigor": 65,
+        "intuition": 35,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "1998-01-28", "end": "1999-02-15" }
+      ]
+    },
+    {
+      "designation": "Earth Rabbit",
+      "animal": "Rabbit",
+      "element": "Earth",
+      "polarity": "Yin",
+      "symbol_vibe": "The Practical Rabbit",
+      "qualities": "Constant and reserved; a reliable advisor who values home life and long-term security.",
+      "shortcomings": "Unyielding in their habits; can be overly cautious and fearful of any disruption.",
+      "physical_tendencies": "Sturdy, unassuming appearance",
+      "base_stats": {
+        "vitality": 30,
+        "intellect": 65,
+        "spirit": 55,
+        "charisma": 50,
+        "vigor": 25,
+        "intuition": 60,
+        "resolve": 70
+      },
+      "date_ranges": [
+        { "start": "1999-02-16", "end": "2000-02-04" }
+      ]
+    },
+    {
+      "designation": "Metal Dragon",
+      "animal": "Dragon",
+      "element": "Metal",
+      "polarity": "Yang",
+      "symbol_vibe": "The Unyielding Dragon",
+      "qualities": "A person of extreme integrity and honesty; fights for justice with relentless vigor.",
+      "shortcomings": "Fanatical and combative; tends to see the world in strictly black-and-white terms.",
+      "physical_tendencies": "Sharp, metallic 'shine' in eyes",
+      "base_stats": {
+        "vitality": 60,
+        "intellect": 45,
+        "spirit": 50,
+        "charisma": 75,
+        "vigor": 75,
+        "intuition": 30,
+        "resolve": 65
+      },
+      "date_ranges": [
+        { "start": "2000-02-05", "end": "2001-01-23" }
+      ]
+    },
+    {
+      "designation": "Metal Snake",
+      "animal": "Snake",
+      "element": "Metal",
+      "polarity": "Yin",
+      "symbol_vibe": "The Calculating Snake",
+      "qualities": "Exceptionally intelligent and quiet; excels at long-term strategy and secret goals.",
+      "shortcomings": "Secretive and distrustful; may spend a lifetime without truly letting anyone in.",
+      "physical_tendencies": "Pale skin, sharp/piercing eyes",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 60,
+        "spirit": 45,
+        "charisma": 70,
+        "vigor": 55,
+        "intuition": 55,
+        "resolve": 60
+      },
+      "date_ranges": [
+        { "start": "2001-01-24", "end": "2002-02-11" }
+      ]
+    },
+    {
+      "designation": "Water Horse",
+      "animal": "Horse",
+      "element": "Water",
+      "polarity": "Yang",
+      "symbol_vibe": "The Cheerful Horse",
+      "qualities": "Entertaining and adaptable; moves through life with a light, easy-going grace.",
+      "shortcomings": "Distractible and shallow; finds it difficult to maintain focus on any one project.",
+      "physical_tendencies": "Bright eyes, active/restless",
+      "base_stats": {
+        "vitality": 50,
+        "intellect": 70,
+        "spirit": 45,
+        "charisma": 55,
+        "vigor": 60,
+        "intuition": 60,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "2002-02-12", "end": "2003-01-31" }
+      ]
+    },
+    {
+      "designation": "Water Goat",
+      "animal": "Goat",
+      "element": "Water",
+      "polarity": "Yin",
+      "symbol_vibe": "The Harmonious Goat",
+      "qualities": "Gentle and flexible; a natural diplomat who can soothe even the most angry souls.",
+      "shortcomings": "Over-sensitivity and passive; allows others to walk all over them to avoid conflict.",
+      "physical_tendencies": "Soft skin, round/gentle features",
+      "base_stats": {
+        "vitality": 40,
+        "intellect": 60,
+        "spirit": 60,
+        "charisma": 45,
+        "vigor": 30,
+        "intuition": 80,
+        "resolve": 45
+      },
+      "date_ranges": [
+        { "start": "2003-02-01", "end": "2004-01-21" }
+      ]
+    },
+    {
+      "designation": "Wood Monkey",
+      "animal": "Monkey",
+      "element": "Wood",
+      "polarity": "Yang",
+      "symbol_vibe": "The Aspiring Monkey",
+      "qualities": "Clever and resourceful; always looking for a new way to solve an old problem.",
+      "shortcomings": "Arrogant and manipulative; believes they are smarter than everyone in the room.",
+      "physical_tendencies": "Agile, long arms, quick gait",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 55,
+        "spirit": 70,
+        "charisma": 45,
+        "vigor": 50,
+        "intuition": 65,
+        "resolve": 30
+      },
+      "date_ranges": [
+        { "start": "2004-01-22", "end": "2005-02-08" }
+      ]
+    },
+    {
+      "designation": "Wood Rooster",
+      "animal": "Rooster",
+      "element": "Wood",
+      "polarity": "Yin",
+      "symbol_vibe": "The Energetic Rooster",
+      "qualities": "Honest and social; values order and likes to keep their community running smoothly.",
+      "shortcomings": "Self-centered and blunt; their 'help' often feels like unwelcome criticism.",
+      "physical_tendencies": "Neat, vibrant, colorful style",
+      "base_stats": {
+        "vitality": 45,
+        "intellect": 50,
+        "spirit": 65,
+        "charisma": 40,
+        "vigor": 40,
+        "intuition": 55,
+        "resolve": 55
+      },
+      "date_ranges": [
+        { "start": "2005-02-09", "end": "2006-01-28" }
+      ]
+    }
+  ]
+}
+EOF
