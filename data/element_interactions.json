@@ -1,31 +1,17 @@
 {
   "harmony_map": {
-    "Rat": ["Ox", "Dragon", "Monkey"],
-    "Ox": ["Rat", "Snake", "Rooster"],
-    "Tiger": ["Horse", "Dog", "Pig"],
-    "Rabbit": ["Goat", "Pig", "Dog"],
-    "Dragon": ["Rat", "Monkey", "Rooster"],
-    "Snake": ["Ox", "Rooster", "Monkey"],
-    "Horse": ["Tiger", "Dog", "Goat"],
-    "Goat": ["Rabbit", "Pig", "Horse"],
-    "Monkey": ["Rat", "Dragon", "Snake"],
-    "Rooster": ["Ox", "Snake", "Dragon"],
-    "Dog": ["Tiger", "Horse", "Rabbit"],
-    "Pig": ["Rabbit", "Goat", "Tiger"]
+    "Wood": ["Fire", "Water"],
+    "Fire": ["Earth", "Wood"],
+    "Earth": ["Metal", "Fire"],
+    "Metal": ["Water", "Earth"],
+    "Water": ["Wood", "Metal"]
   },
   "clash_map": {
-    "Rat": ["Horse"],
-    "Ox": ["Goat"],
-    "Tiger": ["Monkey"],
-    "Rabbit": ["Rooster"],
-    "Dragon": ["Dog"],
-    "Snake": ["Pig"],
-    "Horse": ["Rat"],
-    "Goat": ["Ox"],
-    "Monkey": ["Tiger"],
-    "Rooster": ["Rabbit"],
-    "Dog": ["Dragon"],
-    "Pig": ["Snake"]
+    "Wood": ["Earth", "Metal"],
+    "Fire": ["Metal", "Water"],
+    "Earth": ["Water", "Wood"],
+    "Metal": ["Wood", "Fire"],
+    "Water": ["Fire", "Earth"]
   },
   "mirror_pairs": {
     "Rat": "Sagittarius",
@@ -62,4 +48,3 @@
     "resolve": 0.8
   }
 }
-

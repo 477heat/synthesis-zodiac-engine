@@ -4,7 +4,7 @@ from lambda_function import lambda_handler
 # Simulate an API Gateway event
 event = {
     "body": json.dumps({
-        "dob": "1980-02-16",
+        "dob": "1980-02-15",
         "currentDate": "2026-05-01"
     })
 }
