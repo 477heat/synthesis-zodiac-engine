@@ -12,12 +12,14 @@
 		9691C1902FA522CF009E3A44 /* element_interactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = element_interactions.json; sourceTree = "<group>"; };
 		9691C1912FA522EA009E3A44 /* stat_templates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stat_templates.json; sourceTree = "<group>"; };
 		9691C1922FA52369009E3A44 /* lambda_function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lambda_function.py; sourceTree = "<group>"; };
+		9691C1932FA53250009E3A44 /* test_local_quick.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_local_quick.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9691C1852FA5211A009E3A44 = {
 			isa = PBXGroup;
 			children = (
+				9691C1932FA53250009E3A44 /* test_local_quick.py */,
 				9691C1922FA52369009E3A44 /* lambda_function.py */,
 				9691C18C2FA521BC009E3A44 /* data */,
 			);

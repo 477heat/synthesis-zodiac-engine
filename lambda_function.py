@@ -1,17 +1,22 @@
+import json
 import os
+import traceback
 from datetime import datetime, date
 
 # Load all static data at cold start
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 with open(os.path.join(DATA_DIR, 'western_zodiac.json'), 'r') as f:
-    western_zodiac = json.load(f)
+    data = json.load(f)
+    western_zodiac = data["western_zodiac"] if isinstance(data, dict) else data
 with open(os.path.join(DATA_DIR, 'chinese_zodiac.json'), 'r') as f:
-    chinese_zodiac = json.load(f)
+    data = json.load(f)
+    chinese_zodiac = data["chinese_zodiac"] if isinstance(data, dict) else data
 with open(os.path.join(DATA_DIR, 'element_interactions.json'), 'r') as f:
     element_interactions = json.load(f)
+   
 with open(os.path.join(DATA_DIR, 'stat_templates.json'), 'r') as f:
     stat_templates = json.load(f)
-
+    
 def validate_input(event):
     """Parse and validate DOB, return (dob_date, current_date)."""
     body = json.loads(event.get('body', '{}'))
@@ -53,28 +58,40 @@ def resolve_western(dob):
     raise ValueError("No matching Western sign found.")
 
 def resolve_chinese(dob):
-    """Find Chinese animal/element by exact year boundaries."""
     for entry in chinese_zodiac:
-        start = datetime.strptime(entry['start'], '%Y-%m-%d').date()
-        end = datetime.strptime(entry['end'], '%Y-%m-%d').date()
-        if start <= dob <= end:
-            return entry
+        for dr in entry['date_ranges']:
+            start = datetime.strptime(dr['start'], '%Y-%m-%d').date()
+            end = datetime.strptime(dr['end'], '%Y-%m-%d').date()
+            if start <= dob <= end:
+                return entry
     raise ValueError("No matching Chinese designation found.")
 
 def compute_base_stats(west, chin):
-    """Sum Western base + Chinese base + element weighting."""
-    stats = {k: 0 for k in stat_templates['element_weight_bonuses']['Wood'].keys()}
+    # Start with zero for all 7 stats
+    stats = {
+        "vitality": 0,
+        "intellect": 0,
+        "spirit": 0,
+        "charisma": 0,
+        "vigor": 0,
+        "intuition": 0,
+        "resolve": 0
+    }
+    
     # Western base
     for k, v in west['base_stats'].items():
         stats[k] += v
+    
     # Chinese animal base
     for k, v in chin['base_stats'].items():
         stats[k] += v
+    
     # Chinese element weight bonus
     elem = chin['element']
     if elem in stat_templates['element_weight_bonuses']:
         for k, v in stat_templates['element_weight_bonuses'][elem].items():
             stats[k] += v
+    
     return stats
 
 def evaluate_synergy(west, chin, stats):
@@ -207,7 +224,9 @@ def lambda_handler(event, context):
             "body": json.dumps({"error": str(e)})
         }
     except Exception as e:
+        # Print the full error to the Terminal
+        traceback.print_exc()
         return {
             "statusCode": 500,
-            "body": json.dumps({"error": "Internal server error."})
+            "body": json.dumps({"error": str(e)})   # also return the real error message
         }
