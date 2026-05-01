@@ -210,8 +210,4 @@ def lambda_handler(event, context):
         return {
             "statusCode": 500,
             "body": json.dumps({"error": "Internal server error."})
-        }//  lambda_function.py
-//
-//  Created by Tony Brewer on 5/1/26.
-//
-
+        }
