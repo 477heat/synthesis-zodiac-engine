@@ -11,16 +11,20 @@
 		9691C18F2FA52292009E3A44 /* chinese_zodiac.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chinese_zodiac.json; sourceTree = "<group>"; };
 		9691C1902FA522CF009E3A44 /* element_interactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = element_interactions.json; sourceTree = "<group>"; };
 		9691C1912FA522EA009E3A44 /* stat_templates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stat_templates.json; sourceTree = "<group>"; };
-		9691C1922FA52369009E3A44 /* lambda_function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lambda_function.py; sourceTree = "<group>"; };
-		9691C1932FA53250009E3A44 /* test_local_quick.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_local_quick.py; sourceTree = "<group>"; };
+		9691C1922FA52369009E3A44 /* Old lambda_function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Old lambda_function.py"; sourceTree = "<group>"; };
+		9691C1952FA686A2009E3A44 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		9691C1962FA68E23009E3A44 /* NEWER RANGES - Sheet1-Western Zodiac.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NEWER RANGES - Sheet1-Western Zodiac.csv"; sourceTree = "<group>"; };
+		9691C1972FA68E23009E3A44 /* NEWER RANGES - Sheet2-Chinese Zodiac.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NEWER RANGES - Sheet2-Chinese Zodiac.csv"; sourceTree = "<group>"; };
+		9691C19A2FA69194009E3A44 /* new lambda_function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "new lambda_function.py"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9691C1852FA5211A009E3A44 = {
 			isa = PBXGroup;
 			children = (
-				9691C1932FA53250009E3A44 /* test_local_quick.py */,
-				9691C1922FA52369009E3A44 /* lambda_function.py */,
+				9691C1922FA52369009E3A44 /* Old lambda_function.py */,
+				9691C1952FA686A2009E3A44 /* Untitled.swift */,
+				9691C19A2FA69194009E3A44 /* new lambda_function.py */,
 				9691C18C2FA521BC009E3A44 /* data */,
 			);
 			sourceTree = "<group>";
@@ -32,6 +36,8 @@
 				9691C1902FA522CF009E3A44 /* element_interactions.json */,
 				9691C18F2FA52292009E3A44 /* chinese_zodiac.json */,
 				9691C18D2FA521ED009E3A44 /* western_zodiac.json */,
+				9691C1962FA68E23009E3A44 /* NEWER RANGES - Sheet1-Western Zodiac.csv */,
+				9691C1972FA68E23009E3A44 /* NEWER RANGES - Sheet2-Chinese Zodiac.csv */,
 			);
 			path = data;
 			sourceTree = "<group>";
