@@ -206,6 +206,24 @@ def generate_title(west, chin):
 # 10. Main Lambda handler
 # --------------------------------------------------------------------
 def lambda_handler(event, context):
+    # ---- CORS preflight / generic OPTIONS detection ----
+    http_method = (
+        event.get('requestContext', {}).get('http', {}).get('method', '') or
+        event.get('httpMethod', '') or
+        event.get('method', '')
+    )
+    if http_method == 'OPTIONS':
+        return {
+            "statusCode": 200,
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type"
+            },
+            "body": ""
+        }
+
+    # ---- normal processing ----
     try:
         dob, curr, age = validate_input(event)
         west = resolve_western(dob)
@@ -226,7 +244,6 @@ def lambda_handler(event, context):
         strengths, shortcomings, physical, ruling_zones = assemble_traits(west, chin)
         title = generate_title(west, chin)
 
-        # Friendly descriptions
         stance_desc_map = {
             "Harmonious": "Harmonious: A natural alignment that amplifies your innate gifts across all dimensions.",
             "Contradictory": "Inner Turmoil: A volatile blend that sharply heightens your instincts and drive, but erodes your endurance and composure.",
@@ -254,12 +271,33 @@ def lambda_handler(event, context):
 
         return {
             "statusCode": 200,
-            "headers": {"Content-Type": "application/json"},
+            "headers": {
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type"
+            },
             "body": json.dumps({"profile": profile})
         }
 
     except ValueError as e:
-        return {"statusCode": 400, "body": json.dumps({"error": str(e)})}
+        return {
+            "statusCode": 400,
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type"
+            },
+            "body": json.dumps({"error": str(e)})
+        }
     except Exception as e:
         traceback.print_exc()
-        return {"statusCode": 500, "body": json.dumps({"error": str(e)})}
+        return {
+            "statusCode": 500,
+            "headers": {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type"
+            },
+            "body": json.dumps({"error": str(e)})
+        }

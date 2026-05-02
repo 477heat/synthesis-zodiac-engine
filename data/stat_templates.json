@@ -9,7 +9,7 @@
       "Elder": [70, 120]
     }
   },
-  "stat_cap": 800,
+  "stat_cap": 750,
   "element_weight_bonuses": {
     "Wood": { "spirit": 30, "intuition": 20 },
     "Fire": { "vitality": 30, "charisma": 20 },
