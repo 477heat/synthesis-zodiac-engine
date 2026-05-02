@@ -1,12 +1,14 @@
 {
   "age": {
-    "min_age": 13,
+    "min_age": 1,
     "badges": {
-      "Novice": [13, 17],
-      "Pupil": [18, 29],
-      "Student": [30, 49],
-      "Wisened": [50, 69],
-      "Elder": [70, 120]
+      "Abecedarian": [1, 5],
+      "Tiro": [6, 13],
+      "Discipulus": [14, 18],
+      "Scholaris": [23, 29],
+      "Adeptus": [30, 49],
+      "Magister": [50, 69],
+      "Laureatus": [70, 120]
     }
   },
   "stat_cap": 750,
