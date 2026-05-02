@@ -2,13 +2,14 @@
   "age": {
     "min_age": 1,
     "badges": {
-      "Abecedarian": [1, 5],
-      "Tiro": [6, 13],
-      "Discipulus": [14, 18],
-      "Scholaris": [23, 29],
-      "Adeptus": [30, 49],
-      "Magister": [50, 69],
-      "Laureatus": [70, 120]
+      "Tiro": [1, 5],
+      "Abecedarian": [6, 12],
+      "Discipulus": [13, 20],
+      "Scholaris": [21, 33],
+      "Adeptus": [34, 45],
+      "Magister": [46, 60],
+      "Laureatus": [61, 105],
+      "Corpus Exanime": [105, 2000]
     }
   },
   "stat_cap": 750,

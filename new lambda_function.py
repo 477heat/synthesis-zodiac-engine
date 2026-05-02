@@ -73,18 +73,22 @@ def calculate_age_and_badge(dob_date, current_date):
     age = current_date.year - dob_date.year - ((current_date.month, current_date.day) < (dob_date.month, dob_date.day))
     
     # Adhering to the Master Spec ranges
-    if age < 18:
-        badge = "Apprentice" # Fallback for underage
-    elif 18 <= age < 24:
-        badge = "Noob"
-    elif 24 <= age < 30:
-        badge = "Novice"
-    elif 30 <= age < 45:
-        badge = "Adept" # Bridging the gap
-    elif 45 <= age < 55:
-        badge = "Venerable"
+    if age < 1:
+        badge = "Tiro"
+    elif 6 <= age < 12:
+        badge = "Abecedarian"
+    elif 13 <= age < 20:
+        badge = "Discipulus"
+    elif 21 <= age < 33:
+        badge = "Scholaris" # Bridging the gap
+    elif 34 <= age < 45:
+        badge = "Adeptus"
+    elif 45 <= age < 60:
+        badge = "Magister"
+    elif 61 <= age < 105:
+        badge = "Laureatus"
     else:
-        badge = "Elder"
+        badge = "Corpus Exanime"
         
     return age, badge
 
