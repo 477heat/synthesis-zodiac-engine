@@ -3,14 +3,12 @@ import json
 import os
 from datetime import datetime
 
-#    --------------------------------------------------------------------
 # 1. Load JSON Data (zodiac signs + interactions + templates)
-# --------------------------------------------------------------------
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 WESTERN_JSON_PATH = os.path.join(DATA_DIR, 'western_zodiac.json')
 CHINESE_JSON_PATH = os.path.join(DATA_DIR, 'chinese_zodiac.json')
 
-# New external configs (placed in same directory as lambda_function.py)
 BASE_DIR = os.path.dirname(__file__)
 ELEMENT_INTERACTIONS_PATH = os.path.join(BASE_DIR, 'element_interactions.json')
 STAT_TEMPLATES_PATH = os.path.join(BASE_DIR, 'stat_templates.json')

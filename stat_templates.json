@@ -1,0 +1,23 @@
+{
+  "age": {
+    "min_age": 1,
+    "badges": {
+      "Tiro": [1, 5],
+      "Abecedarian": [6, 12],
+      "Discipulus": [13, 20],
+      "Scholaris": [21, 33],
+      "Adeptus": [34, 45],
+      "Magister": [46, 60],
+      "Laureatus": [61, 105],
+      "Corpus Exanime": [105, 2000]
+    }
+  },
+  "stat_cap": 750,
+  "element_weight_bonuses": {
+    "Wood": { "spirit": 30, "intuition": 20 },
+    "Fire": { "vitality": 30, "charisma": 20 },
+    "Earth": { "resolve": 30, "vigor": 20 },
+    "Metal": { "intellect": 30, "resolve": 20 },
+    "Water": { "intellect": 20, "intuition": 30 }
+  }
+}

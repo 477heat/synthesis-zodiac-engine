@@ -2,23 +2,15 @@
   "harmony_map": {
     "Wood": ["Fire", "Water"],
     "Fire": ["Earth", "Wood"],
-    "Earth": ["Air", "Fire"],
+    "Earth": ["Metal", "Fire"],
     "Metal": ["Water", "Earth"],
-    "Water": ["Air"]
-
-  },
-  "Mirrored Duality": {
-      "Water": ["Water"],
-      "Earth": ["Earth"],
-      "Fire": ["Fire"]
-      
-      
+    "Water": ["Wood", "Metal"]
   },
   "clash_map": {
-    "Wood": ["Earth", "Air"],
-    "Fire": ["Air", "Water"],
-    "Earth": ["Water"],
-    "Metal": ["Air", "Fire"],
+    "Wood": ["Earth", "Metal"],
+    "Fire": ["Metal", "Water"],
+    "Earth": ["Water", "Wood"],
+    "Metal": ["Wood", "Fire"],
     "Water": ["Fire", "Earth"]
   },
   "mirrored_spirits_map": {
