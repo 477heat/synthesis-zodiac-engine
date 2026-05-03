@@ -13,7 +13,7 @@
     "Metal": ["Wood", "Fire"],
     "Water": ["Fire", "Earth"]
   },
-  "kindred_duality": {
+  "mirrored_spirits_map": {
     "Rat": "Sagittarius",
     "Ox": "Capricorn",
     "Tiger": "Aquarius",
@@ -40,7 +40,7 @@
     "Pig-Pisces": "Sagittarius-Capricorn"
   },
   "harmony_multiplier": 1.2,
-  "kindred_duality_Bonus": 50,
+  "mirrored_spirits_multiplier": 50,
   "contradictory_modifiers": {
     "vitality": 0.8,
     "vigor": 1.2,
