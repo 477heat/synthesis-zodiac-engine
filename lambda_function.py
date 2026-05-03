@@ -1,19 +1,17 @@
-# Engine 1.4
+# Engine 1.4.1
 import json
 import os
 from datetime import datetime
 
-# 1. Load JSON Data
+# 1. Load JSON Data - strictly from data directory per user instruction
 BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 
 def load_json_data(filename):
-    # Try data folder first, then base dir
-    paths = [os.path.join(DATA_DIR, filename), os.path.join(BASE_DIR, filename)]
-    for path in paths:
-        if os.path.exists(path):
-            with open(path, 'r', encoding='utf-8') as f:
-                return json.load(f)
+    filepath = os.path.join(DATA_DIR, filename)
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
     return {}
 
 # Pre-load data
@@ -33,7 +31,9 @@ MIRRORED_MULT = ELEMENT_INTERACTIONS.get('mirrored_spirits_multiplier', 50)
 HARMONY_MULT = ELEMENT_INTERACTIONS.get('harmony_multiplier', 1.2)
 CONTRADICTORY_MODS = ELEMENT_INTERACTIONS.get('contradictory_modifiers', {})
 ELEMENT_WEIGHTS = STAT_TEMPLATES.get('element_weight_bonuses', {})
-STAT_CAP = STAT_TEMPLATES.get('stat_cap', 750)
+
+# STAT CAP: Representing Ascension
+STAT_CAP = 1000
 
 def resolve_western_sign(dob_date):
     md = dob_date.strftime("%m-%d")
@@ -57,11 +57,11 @@ def resolve_chinese_sign(dob_date):
 
 def calculate_synergy(w_name, w_elem, c_animal, c_elem):
     """Calculates stance and multipliers based on element and spirit pairing."""
-    w_e = w_elem.split('-')[0].capitalize() # Handle Fire-Earth types
+    # Normalize elements for lookup (Handle Fire-Earth types by taking the primary)
+    w_e = w_elem.split('-')[0].capitalize()
     c_e = c_elem.capitalize()
     
     # 1. Check Mirrored Spirits (Highest Priority)
-    # Check single (Rat) or dual (Rat-Aries) mapping
     pairing_key = f"{c_animal}-{w_name}"
     if MIRRORED_MAP.get(c_animal) == w_name or MIRRORED_MAP.get(pairing_key):
         return {"stance": "Mirrored", "multiplier": MIRRORED_MULT, "mods": None}
@@ -90,23 +90,30 @@ def lambda_handler(event, context):
         w_sign = resolve_western_sign(dob_date)
         c_sign = resolve_chinese_sign(dob_date)
         
-        # Synergy
+        # Synergy using consolidated function
         synergy = calculate_synergy(w_sign['name'], w_sign['element'], c_sign['animal'], c_sign['element'])
         
         # Stat Calculation
         stats = {}
-        for s in ['vitality', 'intellect', 'spirit', 'charisma', 'vigor', 'intuition', 'resolve']:
+        stat_list = ['vitality', 'intellect', 'spirit', 'charisma', 'vigor', 'intuition', 'resolve']
+        for s in stat_list:
             base = w_sign['base_stats'].get(s, 0) + c_sign['base_stats'].get(s, 0)
             val = base * synergy['multiplier']
+            
+            # Apply contradictory per-stat modifiers
             if synergy['mods'] and s in synergy['mods']:
                 val *= synergy['mods'][s]
+            
+            # Add element weight bonuses
             val += ELEMENT_WEIGHTS.get(c_sign['element'], {}).get(s, 0)
+            
+            # Enforce the new Ascension Stat Cap
             stats[s] = min(int(val), STAT_CAP)
 
-        # Age/Badge
+        # Age and Badge resolution
         age = current_date.year - dob_date.year - ((current_date.month, current_date.day) < (dob_date.month, dob_date.day))
         badge = "Corpus Exanime"
-        for b, r in STAT_TEMPLATES['age']['badges'].items():
+        for b, r in STAT_TEMPLATES.get('age', {}).get('badges', {}).items():
             if r[0] <= age <= r[1]:
                 badge = b
                 break
@@ -120,7 +127,7 @@ def lambda_handler(event, context):
             "traits": {
                 "strengths": w_sign.get('qualities'),
                 "shortcomings": w_sign.get('shortcomings'),
-                "physical": w_sign.get('physical_traits') or c_sign.get('physical_tendencies')
+                "appearance": c_sign.get('physical_tendencies') # Mapped to appearance for Chinese
             }
         }
 
@@ -133,7 +140,7 @@ def lambda_handler(event, context):
     except Exception as e:
         return {"statusCode": 500, "body": json.dumps({"error": str(e)})}
 
-# Local Testing Logic
 if __name__ == "__main__":
-    test_event = {"body": json.dumps({"dob": "1990-05-20"})}
+    # Test cases: Try 1990-05-20 (Gemini) or 1990-01-20 (Capricorn-Aquarius Cusp)
+    test_event = {"body": json.dumps({"dob": "1990-01-20"})}
     print(lambda_handler(test_event, None))
