@@ -13,7 +13,7 @@
     "Metal": ["Wood", "Fire"],
     "Water": ["Fire", "Earth"]
   },
-  "mirror_pairs": {
+  "kindred_duality": {
     "Rat": "Sagittarius",
     "Ox": "Capricorn",
     "Tiger": "Aquarius",
@@ -39,8 +39,8 @@
     "Dog-Aquarius": "Scorpio-Sagittarius",
     "Pig-Pisces": "Sagittarius-Capricorn"
   },
-  "harmonious_multiplier": 1.2,
-  "mirror_bonus": 50,
+  "harmony_multiplier": 1.2,
+  "kindred_duality_Bonus": 50,
   "contradictory_modifiers": {
     "vitality": 0.8,
     "vigor": 1.2,
