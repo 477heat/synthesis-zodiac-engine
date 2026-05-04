@@ -12,7 +12,6 @@
       "Earth": ["Earth"],
       "Fire": ["Fire"]
       
-      
   },
   "clash_map": {
     "Wood": ["Earth", "Air"],
@@ -48,7 +47,7 @@
     "Pig-Pisces": "Sagittarius-Capricorn"
   },
   "harmony_multiplier": 1.2,
-  "mirrored_spirits_multiplier": 50,
+  "mirrored_spirits_multiplier": 1.8,
   "contradictory_modifiers": {
     "vitality": 0.8,
     "vigor": 1.2,
