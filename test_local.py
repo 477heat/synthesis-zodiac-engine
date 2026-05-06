@@ -3,7 +3,7 @@ import json
 from lambda_function import lambda_handler
 
 event = {
-    "body": "{\"dob\": \”1980-02-22}” 
+    "body": "{\"dob\": \”1980-02-15}” 
 }
 
 try:
